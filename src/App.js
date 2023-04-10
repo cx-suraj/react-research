@@ -6,6 +6,7 @@ import { PdfPaint } from "./jspdf/withhtml2canvas/PdfPraint";
 import Pdfme from "./Pdfme/Pdfme";
 import DynamicPDF from "./Pdfme/DynamicPDF";
 import { Main } from "./CSV/Main";
+import LoadingFacebookSDK from "./FacebookLoginFirebase/LoadingFacebookSDK";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <PdfPaint /> */}
       {/* <Pdfme /> */}
       {/* <DynamicPDF/> */}
-      <Main />
+      {/* <Main /> */}
+      <LoadingFacebookSDK/>
     </div>
   );
 }

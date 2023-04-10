@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@firebase/app": "^0.9.7",
+    "@firebase/auth": "^0.22.0",
     "@pdfme/generator": "^1.0.17",
     "@pdfme/ui": "^1.0.17",
     "@testing-library/jest-dom": "^5.16.5",
@@ -14,6 +16,7 @@
     "buffer": "^6.0.3",
     "csv-to-js-parser": "^2.3.5",
     "date-fns": "^2.29.3",
+    "firebase": "^9.19.1",
     "html2canvas": "^1.4.1",
     "jspdf": "^2.5.1",
     "jspdf-autotable": "^3.5.25",
